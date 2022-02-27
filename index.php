@@ -13,7 +13,7 @@
 	<?php require_once 'header.php'; ?>
 
 	<main class="wrapper">
-
+		<h2>Test</h2>
 	</main>
 
 	<?php require_once 'footer.php'; ?>

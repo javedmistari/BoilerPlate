@@ -35,19 +35,19 @@
     }
 }
 
-@mixin sm-desktop () {
+@mixin md-desktop () {
     @media all and (max-width: 1200px) {
         @content;
     }
 }
 
-@mixin tab_l () {
+@mixin sm-desktop () {
     @media all and (max-width: 1024px) {
         @content;
     }
 }
 
-@mixin tab_portrait () {
+@mixin tablet () {
     @media all and (max-width: 768px) {
         @content;
     }
