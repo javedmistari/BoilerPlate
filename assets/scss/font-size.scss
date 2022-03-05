@@ -1,0 +1,8 @@
+.bodyText,p,ul li,a{
+    @include max_breakpoint(1920px){
+        font-size: 16px;
+    }
+    @include max_breakpoint(1440px){
+        font-size: 15px;
+    }
+}

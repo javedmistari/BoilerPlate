@@ -5,10 +5,12 @@
 @import 'mixins';
 
 @import 'fonts';
-@import 'static';
+@import 'lib';
 @import 'animations';
 
-@import 'common';
-@import 'main';
+@import 'global';
+@import 'components';
+@import 'pages';
 @import 'min';
 @import 'max';
+@import 'font-size'

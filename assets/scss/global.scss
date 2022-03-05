@@ -4,4 +4,15 @@ html {
     /* Do not change this value in any media query */
     /* make use of CSS3 variables where required */
     font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex{
+    display: flex;
+    &_jc-c{
+        justify-content: center;
+    }
+    &_jc-sb{
+        justify-content: space-between;
+    }
 }
