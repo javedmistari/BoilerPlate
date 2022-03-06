@@ -1,8 +1,9 @@
-.bodyText,p,ul li,a{
-    @include max_breakpoint(1920px){
-        font-size: 16px;
-    }
-    @include max_breakpoint(1440px){
-        font-size: 15px;
-    }
+body,.bodyText,p,ul li,a{
+        font-size:clamp(1.4rem,0.953vw, 1.8rem);
+        // min 14px max 18px
+}
+
+h1,.h1{
+    font-size: clamp(2.5rem,2.08333vw,4rem);
+    // min 25px max 45px
 }
