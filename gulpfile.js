@@ -1,24 +1,24 @@
 'use strict';
 
 const gulp = require('gulp'),
-	sass = require('gulp-sass'),
+    sass = require('gulp-sass'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     babel = require('gulp-babel'),
     chalk = require('chalk'),
-	autoprefixer = require('gulp-autoprefixer');
+    autoprefixer = require('gulp-autoprefixer');
 
 sass.compiler = require('node-sass');
 
 gulp.task('scss', function () {
-	return gulp.src('assets/scss/style.scss')
-		.pipe(sass({
+    return gulp.src('assets/scss/style.scss')
+        .pipe(sass({
             outputStyle: 'compressed',
             precision: 15,
             sourceMap: true
         }).on('error', function (e) {
-			this.emit('end');
-			console.log(chalk.bgRed('SCSS error'), chalk.red(e));
+            this.emit('end');
+            console.log(chalk.bgRed('SCSS error'), chalk.red(e));
         }))
         .pipe(autoprefixer({
             cascade: false,
@@ -59,7 +59,7 @@ gulp.task('scripts', function () {
 });
 
 gulp.task('watch', function () {
-	gulp.watch('assets/scss/**/*.scss', gulp.series('scss'));
+    gulp.watch('assets/scss/**/*.scss', gulp.series('scss'));
     gulp.watch(['assets/js/lib/*.js', 'assets/js/common.js'], gulp.series('scripts_common'));
     gulp.watch(['assets/js/custom/**/*.js'], gulp.series('scripts'));
 });

@@ -7,6 +7,11 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+padding: 0;
+}
 .flex{
     display: flex;
     &_jc-c{

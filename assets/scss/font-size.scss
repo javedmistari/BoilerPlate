@@ -1,6 +1,7 @@
 body,.bodyText,p,ul li,a{
         font-size:clamp(1.4rem,0.953vw, 1.8rem);
         // min 14px max 18px
+        //middle value = 1680 screen's font size in vw unit
 }
 
 h1,.h1{
