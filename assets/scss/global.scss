@@ -24,3 +24,11 @@ html {
         justify-content: space-between;
     }
 }
+
+input,
+select,
+textarea {
+    &:focus-visible {
+        outline: none !important
+    }
+}

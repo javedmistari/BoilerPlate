@@ -13,7 +13,7 @@
 <link rel="apple-touch-icon" href="assets/images/favicon.ico" />
 <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
-
+<link rel="stylesheet" type="text/css" href="assets/css/critical.css" media="all" />
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="all" />
 
 <!-- MANIFEST FILE FOR PWA -->
