@@ -7,17 +7,20 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
-padding: 0;
+    padding: 0;
 }
-.flex{
+
+.flex {
     display: flex;
-    &_jc-c{
+
+    &_jc-c {
         justify-content: center;
     }
-    &_jc-sb{
+
+    &_jc-sb {
         justify-content: space-between;
     }
 }
