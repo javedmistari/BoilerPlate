@@ -7,28 +7,19 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+.container{
+    width: 100%;
+    background-color: red;
 
-.flex {
-    display: flex;
+	@include max_breakpoint(1920px) {
+		max-width: 92.5%;
+        margin: 0 auto;
+	}
 
-    &_jc-c {
-        justify-content: center;
-    }
-
-    &_jc-sb {
-        justify-content: space-between;
-    }
-}
-
-input,
-select,
-textarea {
-    &:focus-visible {
-        outline: none !important
-    }
+	@include max_breakpoint(540px) {
+		max-width: 100%;
+        padding-left: 20px;
+		padding-right: 20px;
+		
+	}
 }
