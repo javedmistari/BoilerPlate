@@ -4,14 +4,18 @@
 @import 'colors';
 @import 'functions';
 @import 'mixins';
+@import 'font-size';
 
 @import 'fonts';
 // @import 'lib';
 @import 'animations';
 
+
+
 @import 'global';
 @import 'components';
-@import 'pages';
+@import 'homePage/sections';
+@import 'footer';
+@import 'pages/pages';
 @import 'min';
 @import 'max';
-@import 'font-size'
