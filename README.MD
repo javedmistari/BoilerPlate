@@ -11,3 +11,9 @@
 -- npm install
 
 -- gulp
+
+-- NVM - https://github.com/coreybutler/nvm-windows
+
+nvm install vX.Y.Z
+
+nvm use vA.B.C
